@@ -12,6 +12,7 @@
     <%= render 'layouts/header' %>
       <main>
         <p id="notice"><%= notice %></p>
+        <%= render 'searches/search_form', user: current_user %>
         <%= yield %>
       </main>
     <%= render 'layouts/footer' %>
